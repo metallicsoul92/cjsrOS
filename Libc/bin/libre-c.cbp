@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="libre-c" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/clim/Desktop/cjsrOS/Libc/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/clim/Desktop/cjsrOS/Libc/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/clim/Desktop/cjsrOS/Libc/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/clim/Desktop/cjsrOS/Libc/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/clim/Desktop/cjsrOS/Libc/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libre-c">
+         <Option output="/home/clim/Desktop/cjsrOS/Libc/bin/liblibre-c.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/clim/Desktop/cjsrOS/Libc/bin" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/clim/Desktop/cjsrOS/Libc" />
+            <Add directory="/home/clim/Desktop/cjsrOS/Libc/bin" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.9" />
+            <Add directory="/usr/include/c++/4.9/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.9" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 libre-c" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="libre-c/fast">
+         <Option output="/home/clim/Desktop/cjsrOS/Libc/bin/liblibre-c.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/clim/Desktop/cjsrOS/Libc/bin" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/clim/Desktop/cjsrOS/Libc" />
+            <Add directory="/home/clim/Desktop/cjsrOS/Libc/bin" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.9" />
+            <Add directory="/usr/include/c++/4.9/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.9" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 libre-c/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/clim/Desktop/cjsrOS/Libc/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/clim/Desktop/cjsrOS/Libc/bin" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/cjsrOS/Libc/bin/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/ctypes.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/errno.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/stdio/printf.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/stdio/putchar.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/stdio/puts.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/stdlib/abort.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/stdlib/itoa.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/string/memcmp.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/string/memcpy.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/string/memmove.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/string/memset.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/string/strcmp.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/src/string/strlen.c">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/bin/config.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/aio.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/arpa/in.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/arpa/inet.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/assert.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/complex.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/cpio.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/ctype.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/ctypes.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/dirent.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/dlfcn.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/errno.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/fcntl.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/fenv.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/float.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/fmtmsg.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/fnmatch.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/ftw.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/glob.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/iconv.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/inttypes.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/iso646.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/langinfo.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/libgen.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/limits.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/locale.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/math.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/monetary.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/mqueue.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/ndbm.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/net/if.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/netdb.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/netinet/in.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/netinet/tcp.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/nl_types.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/poll.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/pthread.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/pwd.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/regex.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sched.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/search.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/semaphore.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/signal.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/spawn.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/stdarg.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/stdbool.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/stddef.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/stdint.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/stdio.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/stdlib.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/stejmp.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/string.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/strings.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/stropts.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/cdefs.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/file.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/ipc.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/mman.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/msg.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/resource.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/select.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/sem.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/shm.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/socket.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/stat.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/statvfs.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/syscalls.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/time.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/times.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/types.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/uio.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/un.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/utsname.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/sys/wait.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/syslog.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/tar.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/termios.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/tgmath.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/time.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/trace.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/ulimit.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/unistd.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/utime.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/utmpx.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/wchar.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/wctypte.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/include/wordexp.h">
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/clim/Desktop/cjsrOS/Libc/config.h.in">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

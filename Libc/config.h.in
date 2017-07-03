@@ -1,0 +1,31 @@
+#ifndef CONFIG_H_
+#define CONFIG_H_
+
+//Versioning information
+#define LIB_C_VERSION_MAJ "@LIB_C_VERSION_MAJ@"
+#define LIB_C_VERSION_MIN "@LIB_C_VERSION_MIN@"
+#define LIB_C_VERSION_BUG "@LIB_C_VERSION_BUG@"
+#define LIB_C_VERSION "@LIB_C_VERSION@"
+
+//Platform Detection
+#cmakedefine __OSX__ @__OSX__@
+#cmakedefine __LINUX__ @__LINUX__@
+#cmakedefine __WINDOWS__ @__WINDOWS__@
+
+//Compiler Detection
+#cmakedefine __mingw__ @__mingw__@
+#cmakedefine __msys__ @__msys__@
+#cmakedefine __cygwin__ @__cygwin__@
+#cmakedefine __borland__ @__borland__@
+#cmakedefine __msvc__ @__msvc__@
+#cmakedefine __gcc__ @__gcc__@
+#cmakedefine __gxx__ @__gxx__@
+
+//Compiler Identification
+#define __c_compilerID__ "@CMAKE_C_COMPILER_ID@"
+#define __cxx_compilerID__ "@CMAKE_CXX_COMPILER_ID@"
+
+//Features:
+#define __MT_ENABLED @__MT_ENABLED@
+
+#endif

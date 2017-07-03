@@ -1,0 +1,33 @@
+
+OS Name:
+Authors: 
+Platform/s : //32-bit?
+Build System:
+
+Kernel:
+	Theory:
+
+Lib-C:
+	Theory:
+
+Modules:
+	Theory:
+
+
+------------------------
+Clims Thoughts:
+
+
+We should use either CMake or a simple build script (build.sh) Either can work
+
+Platforms: The More the merrier
+
+Kernel Should have structures for versioning, Architecture type, the bit amount (32,64) ,
+Kernel should also have memory management, task scheduling, probably use the Inode structure for that,
+
+
+LibC should be POSIX Compliant. All Posix headers will be implemented. This is necesarry
+The way LibC works, is it usually hooks to to kernel functions. such as printf, if compiling as a kernel C lib, will use the terminal_write function
+
+Modules:
+	We can use modules for things like filesystem, Rammodule, certain drivers
