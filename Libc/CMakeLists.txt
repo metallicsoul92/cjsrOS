@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8)
 
 project(libre-c)
 
- set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -ffreestanding -Wall -Wextra -std=c11")
+ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -ffreestanding -Wall -Wextra -std=c99 -nostdlib")
 
 
 #Version System
@@ -68,7 +68,7 @@ file(GLOB includes "include/*.h" "include/*/*.h" "bin/config.h")
 file(GLOB sources "src/*.c" "src/*/*.c")
 
 
-add_library(libre-c SHARED ${includes} ${sources})
+add_library(libre-c STATIC ${includes} ${sources})
 set_target_properties(libre-c PROPERTIES LINKER_LANGUAGE C)
 
 install(TARGETS libre-c DESTINATION lib)
