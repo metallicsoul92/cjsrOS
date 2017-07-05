@@ -28,4 +28,7 @@
 //Features:
 #define __MT_ENABLED @__MT_ENABLED@
 
+//Is it a kernel Library?
+#cmakedefine __ISLIBK__ @__ISLIBK__@
+
 #endif
