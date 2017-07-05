@@ -23,6 +23,9 @@ SECTIONS
         *(.bss)
         . = ALIGN(4096);
     }
+    /*
+  	 * Get rid of unnecessary GCC bits.
+  	 */
 
     end = .; _end = .; __end = .;
 }
