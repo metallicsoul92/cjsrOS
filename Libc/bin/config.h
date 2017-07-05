@@ -24,8 +24,10 @@
 //Compiler Identification
 #define __c_compilerID__ "GNU"
 #define __cxx_compilerID__ "GNU"
-
 //Features:
 #define __MT_ENABLED 1
+
+//Is it a kernel Library?
+/* #undef __ISLIBK__ */
 
 #endif
