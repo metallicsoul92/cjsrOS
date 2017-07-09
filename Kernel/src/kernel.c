@@ -1,10 +1,14 @@
 #include "../include/kernel.h"
+#include "../include/ports.h"
+#include "../include/idt.h"
 #include "../../Libc/include/stdio.h"
 
-void printen(const char* msg);
+
 int kernel_main(struct multiboot *mboot_ptr){
-printf("Kernel created by Jark and Sander.");
-  return 0;
+	printf("Kernel created by Jark and Sander.");
+	start_idt();
+	for(;;);
+  	return 0;
 }
 
 
