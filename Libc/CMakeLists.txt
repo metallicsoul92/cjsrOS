@@ -46,13 +46,12 @@ ELSE(CMAKE_COMPILER_IS_GNUCXX)
 SET(__gxx__ 1)
 ENDIF(MINGW)
 
-#This will set if you are building for a different OS
-
 
 #This Sets whether it is multithreaded or not
 SET(__MT_ENABLED 1)
 
-
+#This option is if cmake is passed -DKernel
+option(Kernel "Is this a kernel?")
 
 configure_file (
     "${PROJECT_SOURCE_DIR}/config.h.in"
@@ -67,8 +66,21 @@ include_directories(
 file(GLOB includes "include/*.h" "include/*/*.h" "bin/config.h")
 file(GLOB sources "src/*.c" "src/*/*.c")
 
+if(Kernel)
+set(__ISLIBK__ 1)
+add_library(libre-k ${includes} ${sources})
+set_target_properties(libre-k PROPERTIES LINKER_LANGUAGE C)
 
-add_library(libre-c STATIC ${includes} ${sources})
+else()
+add_library(libre-c  ${includes} ${sources})
 set_target_properties(libre-c PROPERTIES LINKER_LANGUAGE C)
 
+endif()
+
+
+
+if(Kernel)
+install(TARGETS libre-k DESTINATION lib)
+else()
 install(TARGETS libre-c DESTINATION lib)
+endif()
