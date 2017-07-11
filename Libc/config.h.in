@@ -24,8 +24,10 @@
 //Compiler Identification
 #define __c_compilerID__ "@CMAKE_C_COMPILER_ID@"
 #define __cxx_compilerID__ "@CMAKE_CXX_COMPILER_ID@"
-
 //Features:
 #define __MT_ENABLED @__MT_ENABLED@
+
+//Is it a kernel Library?
+#cmakedefine __ISLIBK__ @__ISLIBK__@
 
 #endif

@@ -18,6 +18,7 @@ echo -e "Creating The Bootloader"
 if grub-file --is-x86-multiboot Kernel/bin/kernel32.bin; then
 	echo -e "-setup GRUB bootloader"
 	mkdir -p bin/isodir/boot/grub
+	cp bin/liblibre-c.a bin/isodir/boot/kernel32.bin ####
 	cp Kernel/bin/kernel32.bin bin/isodir/boot/kernel32.bin
 	cp grub.cfg bin/isodir/boot/grub/grub.cfg
 	grub-mkrescue -o kerneliso.iso bin/isodir
