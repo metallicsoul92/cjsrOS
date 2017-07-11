@@ -18,3 +18,11 @@ outportb:
 	mov   al, [esp + 4 + 4]  
 	out   dx, al  
 	ret
+
+global inportw
+
+inportw:
+	mov edx,[esp+4]
+	in ax,dx
+	ret
+outportw:
